@@ -1,65 +1,39 @@
-# design
-/* Alap stílusok */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-/* Fejléc */
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
-    text-align: center;
-}
-
-/* Navigációs menü */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Fő tartalom */
-main {
-    padding: 20px;
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Szekciók */
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-}
-
-/* Lábjegyzet */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Website</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, GitHub Pages!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a sample website hosted on GitHub Pages.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Description of projects goes here...</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact details go here...</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My GitHub Pages Website</p>
+    </footer>
+</body>
+</html>
